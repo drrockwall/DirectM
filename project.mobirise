@@ -1,28 +1,30 @@
 {
   "settings": {
-    "name": "NewSite-06-15_1539",
+    "name": "New Site (Direct M)",
     "currentPage": "index.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
       "styling": {
-        "primaryColor": "#5aac98",
-        "secondaryColor": "#A25DAE",
-        "successColor": "#1E7C3A",
+        "primaryColor": "#1e7c3a",
+        "secondaryColor": "#742282",
+        "successColor": "#1e7c3a",
         "infoColor": "#74a3c7",
         "warningColor": "#FFD785",
         "dangerColor": "#FF9685",
         "titleFont": "Oxygen",
-        "subtitleFont": "Libre Franklin",
-        "textFont": "Libre Franklin",
-        "isRoundedButtons": false,
+        "subtitleFont": "Oxygen",
+        "textFont": "Oxygen",
+        "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 6,
-    "versionPublish": "3.12.1"
+    "uniqCompNum": 9,
+    "versionPublish": "3.12.1",
+    "favicon": "@PROJECT_PATH@/assets/images/logo-128x128.png",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
@@ -142,6 +144,15 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-iconfont": {
+              "color": "#fff",
+              "border-color": "#fff"
+            },
+            ".mbr-table-cell": {
+              "vertical-align": "bottom"
+            }
+          },
           "_anchor": "header1-1",
           "_params": {
             "iconsBgColor": "#fff",
@@ -226,16 +237,108 @@
           },
           "title4": "What is Mobirise",
           "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
-          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
+        },
+        {
+          "subtitle1": "Awesome",
+          "subtitle2": "Awesome",
+          "subtitle3": "Awesome",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features8",
           "_styles": {
             ".mbr-iconfont": {
-              "color": "#fff",
-              "border-color": "#fff"
-            },
-            ".mbr-table-cell": {
-              "vertical-align": "bottom"
+              "color": "@primaryColor",
+              "border-color": "@primaryColor"
             }
-          }
+          },
+          "_anchor": "features8-8",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "iconsBgColor": "@primaryColor",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/02.jpg",
+            "bgColor": "#fffffd",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.95,
+            "overlayColor": "#fffffd",
+            "showHeading": false,
+            "showText": true,
+            "showTitle": true,
+            "showButtons": false,
+            "showFeaturesImages": true,
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": true
+          },
+          "text": "Mobirise",
+          "title": "Always on your terms",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/sheela-120x160.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "name": "touch",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title1": "Dr. Sheela Thomas, DMD",
+          "text1": "Mobirise is an offline app for Window and Mac",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">The new face of Parkway!</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1539x1080.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "name": "touch-swipe",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title2": "The Perfect Smile",
+          "text2": "Minimalisf",
+          "button2": " <a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Your friendly neighbor!</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/gene-480x360.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "name": "responsive",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title3": "Dr. Gene Hamil",
+          "text3": "Free for commercial and non-profit ufe"
         },
         {
           "media1": {
@@ -286,6 +389,12 @@
             "Theme"
           ],
           "_name": "features12",
+          "_styles": {
+            ".mbr-iconfont": {
+              "color": "@primaryColor",
+              "border-color": "@primaryColor"
+            }
+          },
           "_anchor": "features12-2",
           "_params": {
             "paddingTop": 1,
@@ -332,13 +441,7 @@
           "number4": "<p>4</p>",
           "title4": "What is Mobirise",
           "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
-          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
-          "_styles": {
-            ".mbr-iconfont": {
-              "color": "@primaryColor",
-              "border-color": "@primaryColor"
-            }
-          }
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
         },
         {
           "title1": "What is Mobirise",
@@ -357,6 +460,15 @@
             "Theme"
           ],
           "_name": "features17",
+          "_styles": {
+            ".card .mbr-iconfont": {
+              "color": "#fff",
+              "border-color": "#fff"
+            },
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          },
           "_anchor": "features17-3",
           "_params": {
             "paddingTop": 1,
@@ -438,16 +550,7 @@
               "family": "MobiriseIcons"
             }
           },
-          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
-          "_styles": {
-            ".card .mbr-iconfont": {
-              "color": "#fff",
-              "border-color": "#fff"
-            },
-            ".mbr-table-cell": {
-              "vertical-align": "middle"
-            }
-          }
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products."
         },
         {
           "list": "<ul><li><a href=\"\">Bootstrap 4</a></li><li><a href=\"\">Responsive</a></li><li><a href=\"\">Web Fonts</a></li><li><a href=\"\">Unlimited Sites</a></li><li><a href=\"\">Google</a></li><li><a href=\"\">Node</a></li></ul>",
@@ -455,6 +558,11 @@
             "Theme"
           ],
           "_name": "footer1",
+          "_styles": {
+            ".card-text": {
+              "color": "#999999"
+            }
+          },
           "_anchor": "footer1-5",
           "_params": {
             "paddingTop": 1,
@@ -471,24 +579,35 @@
             "overlay": true,
             "overlayOpacity": 0.4,
             "overlayColor": "#000",
-            "columns": 3,
+            "columns": "2",
             "showTitle": true
           },
           "title1": "For Business",
           "text1": "<a href=\"http://mobirise.com\">Lorem ipsum.</a><br /><a href=\"http://mobirise.com\">Perferendis, fugiat.</a><br /><a href=\"http://mobirise.com\">Velit, id.</a><br /><a href=\"http://mobirise.com\">Temporibus, aliquam.</a><br /><a href=\"http://mobirise.com\">Veniam, dolores?</a><br /><a href=\"http://mobirise.com\">Aliquid, eveniet.</a>",
           "title2": "For Developers",
-          "text2": "<a href=\"http://mobirise.com\">Lorem ipsum.</a><br /><a href=\"http://mobirise.com\">Eaque, illum.</a><br /><a href=\"http://mobirise.com\">Ducimus, modi.</a><br /><a href=\"http://mobirise.com\">Ipsa, quia!</a><br /><a href=\"http://mobirise.com\">Velit, impedit.</a><br /><a href=\"http://mobirise.com\">Est, alias?</a>",
+          "text2": "<a href=\"http://mobirise.com\">Lorem ipsum.</a><br><a href=\"http://mobirise.com\">Eaque, illum.</a><br><a href=\"http://mobirise.com\">Ducimus, modi.</a><br><a href=\"http://mobirise.com\">Ipsa, quia!</a><br><a href=\"http://mobirise.com\">Velit, impedit.</a><br><a href=\"http://mobirise.com\">Est, alias?</a>",
           "title3": "For Stores",
           "text3": "<a href=\"http://mobirise.com\">Lorem ipsum.</a><br><a href=\"http://mobirise.com\">Laboriosam, culpa.</a><br><a href=\"http://mobirise.com\">Tempora, quasi.</a><br><a href=\"http://mobirise.com\">Dolorem, eum.</a><br><a href=\"http://mobirise.com\">Fugiat, iure.</a><br><a href=\"http://mobirise.com\">Nobis, veniam.</a>",
           "title4": "For Students",
           "text4": "<a href=\"http://mobirise.com\">Lorem ipsum.</a><br /><a href=\"http://mobirise.com\">Excepturi, consectetur.</a><br /><a href=\"http://mobirise.com\">Similique, debitis.</a><br /><a href=\"http://mobirise.com\">Cum, ea!</a><br /><a href=\"http://mobirise.com\">Asperiores, at.</a><br /><a href=\"http://mobirise.com\">Obcaecati, molestias.</a>",
-          "copy": "<a href=\"http://mobirise.com\">Mobirise</a>, 2016"
+          "copy": "Copyright: Sheela Thomas, 2017"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "footer3",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "center"
+            },
+            ".mbr-section-text": {
+              "font-size": "30px",
+              "color": "#232323",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            }
+          },
           "_anchor": "footer3-4",
           "_params": {
             "paddingTop": 1,
@@ -502,12 +621,30 @@
             "overlayOpacity": 0.9,
             "overlayColor": "#fff"
           },
-          "title1": "Eindhoven, 5657 DB, Netherlands",
-          "text2": "+9 876 543-21-00",
-          "title2": "350 5th Ave, New York, NY 10118",
-          "text1": "+1 234 576-89-00",
-          "title3": "Need help?",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://mobirise.com\">Call us</a>"
+          "title1": "903-356-5319",
+          "text2": "fax: 903-356-5304",
+          "title2": "711 E Quinlan PKWY",
+          "text1": "Quinlan, TX 75474",
+          "title3": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"(tel):903-356-5319\" data-toolbar=\"-mbrBtnMove\">Call us</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-6",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#fff",
+            "googleMap": {
+              "address": "711 E QUINLAN PKWY\nQuinlan, TX 75474",
+              "placeId": "ChIJY0AbrxNfSYYRly1SP3MM-uI",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          }
         }
       ]
     }
